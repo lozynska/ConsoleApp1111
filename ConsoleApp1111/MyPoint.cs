@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1111
 {
-    class Program
+   public class MyPoint
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("hi");
-            MyPoint myPoint = new MyPoint();
-        }
+        public int X { get; set; }
+        public int Y { get; set; }
     }
 }
